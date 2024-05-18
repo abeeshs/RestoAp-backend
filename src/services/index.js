@@ -1,0 +1,14 @@
+module.exports.authService = require('./auth.service');
+module.exports.tokenService = require('./token.service');
+module.exports.userService = require('./user.service');
+module.exports.customerService = require('./customer.service');
+module.exports.messageService = require('./message.service');
+module.exports.orderService = require('./order.service');
+module.exports.menuitemSevice = require('./menuitem.service');
+module.exports.stripeService = require('./stripe');
+module.exports.paymentService = require('./payment.service');
+module.exports.addOnsService = require('./addons.service');
+module.exports.storeService = require('./store.service');
+module.exports.tableService = require('./table.service');
+module.exports.Socket = require('./socket.service');
+module.exports.razorpayService = require('./razorpay');

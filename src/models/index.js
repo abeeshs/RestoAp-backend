@@ -1,0 +1,11 @@
+module.exports.Token = require('./token.model');
+module.exports.User = require('./user.model');
+module.exports.Customer = require('./customer.model');
+module.exports.Order = require('./order.model');
+module.exports.MenuItem = require('./menuitem.model');
+module.exports.Payment = require('./payments.model');
+module.exports.AddOns = require('./addons.model');
+module.exports.Store = require('./store.model');
+module.exports.Table = require('./table.model');
+module.exports.Dining = require('./diningCategory.model');
+module.exports.Category =require('./category.model')
